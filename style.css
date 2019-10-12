@@ -45,6 +45,7 @@ background-size: auto 100%;
 	background-color: #68B867;
 	color: white;
 	padding: 10px 50px;
+	margin-bottom: 8px;
 
 }
 .input {
@@ -52,7 +53,7 @@ background-size: auto 100%;
 	margin: 10px;
 }
 .input input,button,#upcnumber, #clear{
-	font-size: 30px;
+	font-size: 20px;
 	margin: 10px 0px ;
 }
 .ins {
@@ -69,4 +70,9 @@ background-size: auto 100%;
 }
 body {
 	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
 }
