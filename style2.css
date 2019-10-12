@@ -1,3 +1,9 @@
+marquee {
+	background-color: #68B867;	
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+}
 a{
 	text-decoration: none;
 	font-size: 30px;
