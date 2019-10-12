@@ -2,14 +2,15 @@ a{
 	text-decoration: none;
 	font-size: 30px;
 	color: #68B867;
+	text-transform: uppercase;
 	border:3px solid #68B867;
 	margin: 10px;
-	text-transform: uppercase;
 }
 img{
   width:150px;
-  height:180px;
-  margin: 20px 75px 0px 75px;
+  height:150px;
+  margin: 20px 90px 0px 0px;
+  border-radius: 50%;
 }
 input[type=file]{
 padding:10px;
@@ -24,7 +25,7 @@ background-size: auto 100%;
 	margin: 0px auto;
 	border-radius: 20px;
 	background-color: white;
-	background-image: url(back.jpg);
+	background-image: url(back2.jpg);
 	background-size: 100% 100%;
 }
 .card svg {
@@ -36,16 +37,16 @@ background-size: auto 100%;
 }
 #demo {
 	font-size: 30px;
-	text-align: center;
 	color: #68B867;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-left: 50%;
 }
 #demo1 {
 	font-size: 20px;
-	text-align: center;
 	color: #68B867;
 	margin: 0px;
+	margin-left: 50%;
 }
 .add {
 	text-align: center;
@@ -53,7 +54,7 @@ background-size: auto 100%;
 	background-color: #68B867;
 	color: white;
 	padding: 10px 50px;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 
 }
 .input {
@@ -71,6 +72,9 @@ background-size: auto 100%;
 }
 #upcCode {
 	height: 20px;
+	position: static;
+	margin-left: 40%;
+
 }
 #btnSave {
 	margin-top: 10px;

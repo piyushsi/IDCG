@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>IDCG</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
 	<script src="script.js"></script>
@@ -10,7 +10,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
-	<a href="index.html">Simple</a>
+	<a href="index.html">Simple <<</a>
 	<div id="widget" class="card">
 		<img id="blah" src="cont.jpg" alt="your image" />
 		<p id="demo">Your Name</p>
@@ -20,7 +20,7 @@
 		<p id="demo1">01</p>
 		<p class="add">Address: Thehr, Dharamshala, Himachal Pradesh 176057</p>
 	</div>
-	<a href="design.html">design 1 >></a>
+	<a href="design.html">design 1</a>
 	<div  class="input">
 		<input type="text" id="myText" placeholder="Your Name">
 		<button onclick="myFunction()">Insert</button><br>
@@ -51,7 +51,7 @@ $(function() {
                 document.body.appendChild(canvas);
 
                 // Convert and download as image 
-                Canvas2Image.saveAsJPEG(canvas); 
+                Canvas2Image.saveAsJPG(canvas); 
                 $("#img-out").append(canvas);
                 // Clean up 
                 //document.body.removeChild(canvas);
