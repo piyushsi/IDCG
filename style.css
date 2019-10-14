@@ -15,7 +15,7 @@ a{
 img{
   width:150px;
   height:180px;
-  margin: 20px 75px 0px 75px;
+  margin: 15px 75px 0px 75px;
 }
 input[type=file]{
 padding:10px;
@@ -41,7 +41,7 @@ background-size: auto 100%;
 	fill:black;
 }
 #demo {
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
 	color: #68B867;
 	margin-top: 0px;
@@ -59,7 +59,7 @@ background-size: auto 100%;
 	background-color: #68B867;
 	color: white;
 	padding: 10px 50px;
-	margin-bottom: 50px;
+	margin-bottom: 8px;
 
 }
 .input {
