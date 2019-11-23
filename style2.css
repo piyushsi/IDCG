@@ -19,8 +19,7 @@ img{
   margin: 10px 90px 10px 0px;
   border-radius: 76%;
   background-color:  var(--base);
-  filter: blur(var(--blur));
- 
+  filter: blur(var(--blur)); 
 }
 input[type=file]{
 padding:10px;
