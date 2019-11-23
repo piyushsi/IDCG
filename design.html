@@ -22,6 +22,18 @@
 		<p class="add">Address: Thehr, Dharamshala, Himachal Pradesh 176057</p>
 	</div>
 	<a href="design.html">design 1</a>
+	<div class="controls">
+
+    <label for="spacing"> Card Border Spacing:</label>
+    <input id="spacing" type="range" name="spacing" min="1" max="7" value="2" data-sizing="px">
+
+    <label for="blur">Image Blur:</label>
+    <input id="blur" type="range" name="blur" min="0" max="8" value="1" data-sizing="px"><br>
+
+    <label for="base">Base Color</label>
+    <input id="base" type="color" name="base" value="#68B867">
+
+  </div>
 	<div  class="input">
 		<input type="text" id="myText" placeholder="Your Name">
 		<button onclick="myFunction()">Insert</button><br>
@@ -42,6 +54,17 @@
 				<input type="button" id="btnSave" value="Save PNG"/>
 				<div id="img-out"></div>	
 	</div>
+
+<script>
+    const inputs = document.querySelectorAll('.controls input');
+    function handleUpdate() {
+      const suffix = this.dataset.sizing || '';
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+    }
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+  </script>
+
 	
 <script>
 $(function() { 

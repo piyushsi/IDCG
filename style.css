@@ -1,5 +1,5 @@
 marquee {
-	background-color: #68B867;	
+	background-color: var(--base);	
 	color: white;
 	font-size: 30px;
 	padding: 20px;
@@ -7,8 +7,8 @@ marquee {
 a{
 	text-decoration: none;
 	font-size: 30px;
-	color: #68B867;
-	border:3px solid #68B867;
+	color: var(--base);
+	border:3px solid var(--base);
 	margin: 10px;
 	text-transform: uppercase;
 }
@@ -16,6 +16,8 @@ img{
   width:150px;
   height:180px;
   margin: 15px 75px 0px 75px;
+  filter: blur(var(--blur));
+
 }
 input[type=file]{
 padding:10px;
@@ -26,37 +28,42 @@ background-size: auto 100%;
 	padding-top: 80px;
 	height:380px;
 	width: 300px;
-	border:3px solid #68B867;
+	border:var(--spacing) solid var(--base);
 	margin: 0px auto;
 	border-radius: 20px;
 	background-color: white;
 	background-image: url(back.jpg);
 	background-size: 100% 100%;
 }
+:root {
+      --base: #68B867;
+      --spacing: 2px;
+      --blur: 1px;
+    }
 .card svg {
 	margin: 10px 50px 0px 50px;
 	height: 70px;
-	width: 200px;
+	width: 200px;var(--base)
 	position: static;
 	fill:black;
 }
 #demo {
 	font-size: 25px;
 	text-align: center;
-	color: #68B867;
+	color: var(--base);
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 #demo1 {
 	font-size: 20px;
 	text-align: center;
-	color: #68B867;
+	color: var(--base);
 	margin: 0px;
 }
 .add {
 	text-align: center;
 	width: 200px;
-	background-color: #68B867;
+	background-color: var(--base);
 	color: white;
 	padding: 10px 50px;
 	margin-bottom: 8px;
